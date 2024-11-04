@@ -55,18 +55,15 @@ Follow these steps to set up and run the project locally:
 Clone the repository:
 
 bash
-Copy code
 git clone <repository-url>
 cd <project-folder>
 Install dependencies:
 
 bash
-Copy code
 npm install
 Set up environment variables: Create a .env file in the root of your project and add the following:
 
 bash
-Copy code
 MONGODB_URI=mongodb://localhost:27017/socialNetworkDB
 PORT=3001
 Ensure MongoDB is running: If using MongoDB locally, start the MongoDB service.
@@ -77,7 +74,6 @@ Linux: sudo systemctl start mongod
 Start the application:
 
 bash
-Copy code
 npm start
 Usage
 Once the server is running, you can interact with the API using Insomnia or Postman. Below are example requests for each route.
@@ -88,7 +84,7 @@ Here are the primary API routes for managing users, thoughts, friends, and react
 
 A walkthrough video demonstrating how to run and test the API is available here.
 
-This video covers:
+This video covers: 
 
 Starting the application.
 Testing all the GET, POST, PUT, and DELETE routes in Insomnia.
